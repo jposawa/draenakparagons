@@ -1,12 +1,16 @@
 var modificadores = {ajudou:"", inimigos:"none", qtdadeInimigos:5};
 
-titulo.innerHTML = "DraenaK Paragons"; //Título do jogo
-subtitulo.innerHTML = "Moldando o Fluxo"; //Subtitulo do jogo
+function dadosHistoria()
+{
+  titulo.innerHTML = "DraenaK Paragons"; //Título do jogo
+  subtitulo.innerHTML = "Moldando o Fluxo"; //Subtitulo do jogo
 
-autor.href = "https://www.facebook.com/jp.osawa"; //Link para alguma página do autor
-autor.href += "João Pedro Osawa"; //Nome do autor que vai aparecer após "Autor:"
+  autor.href = "https://www.facebook.com/jp.osawa"; //Link para alguma página do autor
+  autor.innerHTML += "João Pedro Osawa"; //Nome do autor que vai aparecer após "Autor:"
 
-logo.src = "https://media.textadventures.co.uk/coverart/3caade1f-2f0d-4c08-b40a-15b24c4ff964%20cover.png"; //Link da imagem para ser usada como logo
+  logo.src = "https://media.textadventures.co.uk/coverart/3caade1f-2f0d-4c08-b40a-15b24c4ff964%20cover.png"; //Link da imagem para ser usada como logo
+}
+
 
 function historia(escolha, passo)
 {
