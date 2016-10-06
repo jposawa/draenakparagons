@@ -1,6 +1,6 @@
 var modificadores = {ajudou:"", inimigos:"none", qtdadeInimigos:5};
 
-function dadosHistoria()
+function dadosHistoria() //Função com informações básicas do jogo
 {
   titulo.innerHTML = "DraenaK Paragons"; //Título do jogo
   subtitulo.innerHTML = "Moldando o Fluxo"; //Subtitulo do jogo
